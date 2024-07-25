@@ -1,0 +1,57 @@
+.top-player-Blogs{
+       background-color: antiquewhite;
+       max-width: 100%;
+       margin:5% 10%;
+
+}
+.top-player-container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    margin: 15px;
+}
+.top-player-context{
+    display: flex;
+    margin:20px 0 ;
+}
+.top-player-context h1{
+    margin: 30px 10px;
+}
+.top-player-context img{
+    width: 20%;
+}
+.top-blogs-container{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    margin: 15px;
+}
+.top-blogs-context{
+    display: flex;
+    margin:20px 0 ;
+}
+.top-blogs-context h1,h3{
+    margin: 30px 10px;
+}
+.top-blogs-context span{
+    color: #562eff;
+}
+
+.top-blogs-context img{
+    width: 50%;
+}
+.footer-latest-courses{
+    background-color: antiquewhite;
+    max-width: 100%;
+    margin:5% 10%;
+}
+.latest-courses-container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    margin: 15px;
+}
+.latest-courses-container img{
+    width: 50%;
+}
+.banner-top-heading{
+    color: #562eff;
+    margin: 1px 0 0 15px;
+}
