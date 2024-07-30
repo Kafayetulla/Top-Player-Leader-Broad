@@ -71,3 +71,13 @@
         text-align: center;
     }
 }
+/* medium device */
+@media screen and (min-width:576px) and (max-width:992px) {
+    .top-player-container{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+    }
+     .top-blogs-container,.latest-courses-container{
+      font-size: 10px;  
+    } 
+}
