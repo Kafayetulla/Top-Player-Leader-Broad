@@ -55,3 +55,19 @@
     color: #562eff;
     margin: 1px 0 0 15px;
 }
+/* small device */
+@media screen and (max-width:576px) {
+    .top-player-container{
+        display: flex;
+        flex-direction: column;
+        font-size:larger;
+    }
+    .top-blogs-container,.latest-courses-container{
+        display: flex;
+        flex-direction: column;
+        padding:40px;
+    }
+    .latest-courses-container{
+        text-align: center;
+    }
+}
